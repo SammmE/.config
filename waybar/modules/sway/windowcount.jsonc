@@ -1,0 +1,8 @@
+{
+  "custom/windowcount": {
+    "exec": "swaymsg -t get_tree | jq '.. | objects | select(.type? == \"con\" and .app_id?) | .app_id' | wc -l",
+    "format": "[{}]",
+    "interval": 5,
+    "tooltip": false
+  }
+}

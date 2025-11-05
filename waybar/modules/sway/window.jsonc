@@ -1,0 +1,13 @@
+{
+  "sway/window": {
+    "format": "{}",
+    "rewrite": {
+      "": "Desktop",
+      "ghostty": "Terminal",
+      "zsh": "Terminal",
+      "~": "Terminal"
+    },
+    "max-length": 50,
+    "tooltip": false
+  }
+}

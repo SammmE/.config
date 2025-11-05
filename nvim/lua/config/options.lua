@@ -1,0 +1,20 @@
+-- Sensible defaults that reinforce vim motions
+local o = vim.opt
+o.number = true
+o.relativenumber = true       -- train counts for motions
+o.scrolloff = 4
+o.sidescrolloff = 8
+o.wrap = false
+o.signcolumn = "yes"
+o.ignorecase = true
+o.smartcase = true
+o.incsearch = true
+o.hlsearch = true
+o.termguicolors = true
+o.updatetime = 200
+o.timeoutlen = 300            -- snappy which-key and mappings
+o.splitright = true
+o.splitbelow = true
+o.clipboard = "unnamedplus"   -- optional
+o.mouse = ""                  -- keyboard only to learn vim
+

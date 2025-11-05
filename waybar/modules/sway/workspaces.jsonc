@@ -1,0 +1,19 @@
+{
+  "sway/workspaces": {
+    "format": "{icon}",
+    "format-icons": {
+      "active": "",
+      "default": ""
+    },
+    "persistent_workspaces": {
+      "1": [],
+      "2": [],
+      "3": [],
+      "4": [],
+      "5": []
+    },
+    "on-scroll-up": "swaymsg workspace next",
+    "on-scroll-down": "swaymsg workspace prev",
+    "disable-scroll": false
+  }
+}
