@@ -10,6 +10,7 @@ wandb/
 # Secrets/tokens and telemetry
 configstore/
 github-copilot/
+libaccounts-glib/
 
 # Machine-specific state and caches
 dconf/
