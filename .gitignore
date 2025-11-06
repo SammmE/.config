@@ -1,0 +1,37 @@
+# App profiles (history, cookies, auth)
+Apple\ Music/
+BraveSoftware/
+Electron/
+mozilla/
+Gaijin/
+WarThunder/
+wandb/
+
+# Secrets/tokens and telemetry
+configstore/
+github-copilot/
+
+# Machine-specific state and caches
+dconf/
+pulse/
+session/
+glib-2.0/
+
+# Editors and IDEs (MRU, workspace state)
+Code/
+zed/
+
+# Shell history
+fish/
+
+# Misc app data not needed to install the desktop
+FreeCAD/
+peazip/
+elephant/
+
+kwalletrc
+kactivitymanagerd-statsrc
+plasmanotifyrc
+ksmserverrc
+kwinoutputconfig.json
+
