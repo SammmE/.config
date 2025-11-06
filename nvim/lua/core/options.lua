@@ -16,4 +16,7 @@ o.splitright = true
 o.splitbelow = true
 o.clipboard = "unnamedplus"   -- optional
 o.mouse = ""                  -- keyboard only to learn vim
-
+o.expandtab = true
+o.shiftwidth = 4
+o.tabstop = 4
+o.smartindent = true
