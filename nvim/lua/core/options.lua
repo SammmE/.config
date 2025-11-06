@@ -1,4 +1,3 @@
--- Sensible defaults that reinforce vim motions
 local o = vim.opt
 o.number = true
 o.relativenumber = true       -- train counts for motions

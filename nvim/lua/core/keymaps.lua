@@ -1,4 +1,3 @@
--- Keep mappings tiny. Learn vim built-ins first.
 vim.g.mapleader = " "
 local map = vim.keymap.set
 local opts = { noremap=true, silent=true }
@@ -13,5 +12,4 @@ map({"n","v","i"}, "<Right>", "<Nop>", opts)
 map("n", "<leader>w", "<cmd>write<cr>", opts)
 map("n", "<leader>q", "<cmd>quit<cr>", opts)
 map("n", "<leader>h", "<cmd>nohlsearch<cr>", opts)
-
 

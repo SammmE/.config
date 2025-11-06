@@ -49,3 +49,8 @@ mtime=1761684535
 ctime=1761793398
 done=plasmashell-6.0-keep-default-floating-setting-for-plasma-5-panels,plasmashell-6.5-remove-stop-activity-shortcut
 mtime=1761684535
+
+[spectacle.upd]
+ctime=1762400004
+done=24.02.0-video_format,24.02.0-keep_old_save_location,24.02.0-rename_settings,24.02.0-keep_old_filename_templates,24.05.2-change_placeholder_format
+mtime=1761686850
