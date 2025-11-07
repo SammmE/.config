@@ -158,6 +158,13 @@ mode "resize" {
     bindsym Return mode "default"
     bindsym Escape mode "default"
 }
+
+input "pointer:RAZER Razer DeathAdder V2 Pro" {
+    accel_profile flat
+    pointer_accel -1.0
+}
+
+
 bindsym $mod+r mode "resize"
 #
 # Utilities:
@@ -174,8 +181,8 @@ bindsym --locked XF86MonBrightnessUp exec brightnessctl set 5%+
 bindsym Print exec grim
 
 default_border none 
-for_window [title="^.*"] title_format ""
-default_border normal 0
-default_floating_border normal 0
+for_window [title="^.*"] border pixel 0
+default_border none
+default_floating_border none
 
 include /etc/sway/config.d/*
